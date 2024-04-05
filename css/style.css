@@ -23,9 +23,22 @@ main {
     max-height: 390px;
 }
 
+
+.carousel-item {
+    background-color: #212529;
+    
+}
+
+#banner-carousel {
+    padding: 0;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4) !important;
+
+}
+
 .carousel-item img {
     object-fit: cover;
     transform: scale(1.5);
+    width: 100%;
 }
 
 section h2 {
@@ -53,4 +66,48 @@ section h2 {
     background-color: rgb(17, 12, 22)!important;
     font-size: 18px;
     line-height: 35px;
+}
+
+@media screen and (max-width: 991px) {
+    audio {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+    
+    main.container {
+        padding: 0;
+    }
+
+    html {
+        font-size: 72.5%;
+    }
+
+    header {
+        position: sticky !important;
+        top: 0 !important;
+        left: 0 !important;
+        z-index: 1 !important;
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.4) !important;
+    }
+
+    #menu {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .history {
+        font-size: 15px;
+    }
+    
+    audio {
+        width: 100%;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
 }

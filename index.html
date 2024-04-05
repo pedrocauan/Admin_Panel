@@ -12,8 +12,8 @@
 <body>
     <main class="container">
         <!--menu-->
-        <header class="navbar navbar-dark bg-dark navbar-expand-lg">
-            <div class="container">
+        <header class="navbar navbar-dark bg-dark navbar-expand-lg container justify-content-sm-center">
+            <div class="container ">
                 <h1 class="title h2">
                     Daftpunk <span class="text-danger">Library</span>
                 </h1>
@@ -21,14 +21,14 @@
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <nav id="menu" class="collapse navbar-collapse justify-content-end gap-4">
+                <nav id="menu" class="collapse navbar-collapse justify-content-end gap-4 gap-sm-5">
                     <ul class="nav nav-pills navbar-nav gap-2">
                         <li class="nav-item">
-                            <a href="#about" class="nav-link">Sobre</a>
+                            <a href="#albuns" class="nav-link">Albuns</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#albuns" class="nav-link">Albuns</a>
+                            <a href="#albuns" class="nav-link">Sobre</a>
                         </li>
 
                     </ul>
@@ -37,24 +37,24 @@
             </div>
         </header>
         <!--banner-->
-        <div id="banner-carousel" class="banner carousel" data-bs-ride="carousel">
+        <div id="banner-carousel" class="banner carousel container" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
-                    <img class="d-block w-100  img-fluid" src="./midia/banner1.jpg" alt="">
+                    <img class="" src="./midia/banner1.jpg" alt="">
                 </div>
                 <div class="carousel-item active" data-bs-interval="2000">
-                    <img class="d-block w-100  img-fluid" src="./midia/banner2.png" alt="">
+                    <img class="" src="./midia/banner2.png" alt="">
                 </div>
                 <div class="carousel-item active" data-bs-interval="2000">
-                    <img class="d-block w-100  img-fluid" src="./midia/banner3.jpg" alt="">
+                    <img class="" src="./midia/banner3.jpg" alt="">
                 </div>
 
             </div>
         </div>
-        <section class="bg-dark text-white container p-5">
-            <h2>Albuns</h2>
-            <article class="row">
-                <div class="col-4 d-flex justify-content-center">
+        <section id="albuns" class="bg-dark text-white container p-4">
+            <h2 >Albuns</h2>
+            <article class="row row-gap-3">
+                <div class="col-lg-4 col-md-6 col-sm-0  d-flex justify-content-center ">
                     <div class="card text-bg-dark">
                         <img src="./midia/card1.png" class="img-top w-100 banner-img" alt="...">
                         <div class="card-body">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-0 d-flex justify-content-center">
                     <div class="card text-bg-dark">
                         <img src="./midia/card2.jpg" class="img-top w-100 banner-img" alt="...">
                         <div class="card-body">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-0 d-flex justify-content-center">
                     <div class="card text-bg-dark">
                         <img src="./midia/card3.png" class="img-top w-100 banner-img"  alt="...">
                         <div class="card-body">
@@ -89,7 +89,7 @@
                 </div>
             </article>
         </section>
-        <section class="bg-dark text-white container p-5">
+        <section id="about" class="bg-dark text-white container p-4">
             <h2>Sobre</h2>
             <p class="text-center p-5 bg-danger history rounded">Daft Punk foi uma dupla francesa de música eletrônica formada em 1993, em Paris, na França, por Guy-Manuel de Homem-Christo e Thomas Bangalter.[3][4][5] Eles alcançaram significativa popularidade no final dos anos 1990 como parte do movimento french house. [6] Nos anos seguintes, consolidaram o sucesso combinando elementos de house com synthpop, disco, rock e techno.[2][3][4][7] A dupla também é creditada pela produção de canções consideradas essenciais no panorama da french house.[8] Entre 1996 e 2008, a sua carreira musical foi gerida por Pedro Winter (Busy P), chefe da gravadora Ed Banger Records.[9]
 
