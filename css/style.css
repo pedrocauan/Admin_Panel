@@ -7,6 +7,15 @@ body {
 main {
     max-width: 1300px !important;
 }
+
+header {
+    position: sticky !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 1 !important;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4) !important;
+}
+
 .audio-menu {
     -webkit-tap-highlight-color: #212529;
 }
@@ -85,15 +94,6 @@ section h2 {
     html {
         font-size: 72.5%;
     }
-
-    header {
-        position: sticky !important;
-        top: 0 !important;
-        left: 0 !important;
-        z-index: 1 !important;
-        box-shadow: 1px 1px 5px rgba(0,0,0,0.4) !important;
-    }
-
     #menu {
         text-align: center;
         font-size: 17px;
